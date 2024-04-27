@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Marhey:wght@400;500;600;700&family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body,
+:root {
+  height: 100%;
+  background: radial-gradient(#480d35, #17151d);
+  color: white;
+}
+
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  max-width: 1280px;
+  font-family: 'Marhey';
+}
+.mostly-customized-scrollbar::-webkit-scrollbar {
+  width: 5px;
+  height: 8px;
+  background-color: #aaa;
+}
+
+.mostly-customized-scrollbar::-webkit-scrollbar-thumb {
+  background: #000;
+}
