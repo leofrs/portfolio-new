@@ -4,12 +4,12 @@ import { CardFront } from './components/_cardFront';
 export default function Home() {
   return (
     <main className="flex flex-col items-center h-full justify-around">
-      <div className="w-full  flex justify-around gap-2 px-3">
-        <div className="h-52 border w-72 rounded-lg text-center p-2">
+      <div className="w-full  flex flex-wrap justify-around gap-2 px-3">
+        <div className="h-52 border w-72 rounded-lg text-center p-4 shadow-2xl shadow-[#480d35]">
           <h2 className="pb-3">Front-End</h2>
           <CardFront />
         </div>
-        <div className="h-52 border w-72  rounded-lg text-center p-2">
+        <div className="h-52 border w-72  rounded-lg text-center p-4 shadow-2xl shadow-[#480d35]">
           <h2 className="pb-3">Back-End</h2>
           <CardBack />
         </div>

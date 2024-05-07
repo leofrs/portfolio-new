@@ -16,10 +16,10 @@ const SideMenu = () => {
         <span className="text-">Full Stack Developer</span>
       </div>
       <div className="w-full h-[33.33%] flex gap-3 mt-3 items-center justify-around">
-        <a href="#" target="_blank">
+        <a href="https://www.linkedin.com/in/leofrs/" target="_blank">
           <FaLinkedin size={25} />
         </a>
-        <a href="#" target="_blank">
+        <a href="https://github.com/leofrs" target="_blank">
           <FaGithub size={25} />
         </a>
         <a href="#" target="_blank">
@@ -31,7 +31,11 @@ const SideMenu = () => {
           É necessário acreditar que sempre é possível
         </p>
         <p>Entre em contato 👇</p>
-        <button className="border border-white p-3 rounded-lg">Email</button>
+        <button className="border border-white p-3 rounded-lg">
+          <a href="mailto:leofrrodrigues86@gmail.com" target="_blank">
+            Email
+          </a>
+        </button>
       </div>
     </main>
   );

@@ -1,37 +1,42 @@
 export const front = [
   {
     id: 1,
-    nome: 'HTML',
+    nome: 'HTML,',
     icon: 'icone do java',
   },
   {
     id: 2,
-    nome: 'CSS',
+    nome: 'CSS,',
     icon: 'icone do java',
   },
   {
     id: 3,
-    nome: 'JavaScript',
+    nome: 'JavaScript,',
     icon: 'icone do java',
   },
   {
     id: 3,
-    nome: 'TypeScript',
+    nome: 'TypeScript,',
     icon: 'icone do java',
   },
   {
     id: 4,
-    nome: 'Angular',
+    nome: 'Angular,',
     icon: 'icone do java',
   },
   {
     id: 5,
-    nome: 'React',
+    nome: 'React,',
     icon: 'icone do java',
   },
   {
     id: 6,
-    nome: 'React Native',
+    nome: 'React Native,',
+    icon: 'icone do java',
+  },
+  {
+    id: 7,
+    nome: 'Next.',
     icon: 'icone do java',
   },
 ];
@@ -39,37 +44,37 @@ export const front = [
 export const back = [
   {
     id: 1,
-    nome: 'Java',
+    nome: 'Java,',
     icon: 'icone do java',
   },
   {
     id: 2,
-    nome: 'Spring Boot',
+    nome: 'Spring Boot,',
     icon: 'icone do java',
   },
   {
     id: 3,
-    nome: 'JavaSript',
+    nome: 'JavaSript,',
     icon: 'icone do java',
   },
   {
     id: 4,
-    nome: 'TypeScript',
+    nome: 'TypeScript,',
     icon: 'icone do java',
   },
   {
     id: 5,
-    nome: 'Node',
+    nome: 'Node,',
     icon: 'icone do java',
   },
   {
     id: 6,
-    nome: 'Docker',
+    nome: 'Docker,',
     icon: 'icone do java',
   },
   {
     id: 7,
-    nome: 'SQL',
+    nome: 'SQL.',
     icon: 'icone do java',
   },
 ];
